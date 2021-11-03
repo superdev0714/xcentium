@@ -1,0 +1,97 @@
+@import './variables';
+
+.text-primary {
+    color: $primary-color !important;
+}
+
+.text-secondary {
+    color: $secondary-color !important;
+}
+
+.text-light {
+    color: $light-color !important;
+}
+
+.text-dark {
+    color: $dark-color !important;
+}
+
+.text-fade {
+    color: $fade-color !important;
+}
+
+// Gird
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: column !important;
+}
+
+// Size
+.m-1 {
+    margin: 0.5rem !important;
+}
+
+.mh-1 {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+}
+
+.mv-1 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.ml-1 {
+    margin-left: 0.5rem !important;
+}
+
+.ml-2 {
+    margin-left: 1rem !important;
+}
+
+.ml-4 {
+    margin-left: 2rem !important;
+}
+
+.p-1 {
+    padding: 0.5rem !important;
+}
+
+.ph-1 {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+.pv-1 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+// Pointer
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+// Font
+.card-title {
+    font-size: $card-title-size !important;
+}
+
+.card-subtitle {
+    font-size: $card-subtitle-size !important;
+}

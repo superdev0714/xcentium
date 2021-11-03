@@ -1,0 +1,42 @@
+$white-color: #fff;
+$black-color: #000;
+$fade-color: #757575;
+
+$white-hover-color: darken($white-color, 15%);
+$black-hover-color: lighten($white-color, 15%);
+$fade-hover-color: darken($white-color, 15%);
+
+$primary-color: #e50914;
+$secondary-color: #0080ff;
+
+$action-color: $secondary-color;
+$action-secondary-color: $fade-color;
+
+$light-color: $white-color;
+$dark-color: $black-color;
+
+
+$main-padding-h: 120px;
+$main-padding-v: 40px;
+
+$card-title-size: 30px;
+$card-subtitle-size: 24px;
+
+// Fonts
+$font-family-lato: 'Lato', Helvetica, Arial, sans-serif;
+$font-family-roboto: 'Roboto', Helvetica, Arial, sans-serif;
+$font-family-base: $font-family-lato;
+$font-family-std-base: $font-family-roboto;
+
+// Layouts
+$screen-maps: (
+  'xs': 480px,
+  'xmd': 570px,
+  'sm': 767px,
+  'bs-ipad': 992px,
+  'ipad': 1000px,
+  'bs-md': 1200px,
+  'laptop': 1280px,
+  'desktop': 1440px,
+);
+$content-max-width: map-get($screen-maps, 'laptop');

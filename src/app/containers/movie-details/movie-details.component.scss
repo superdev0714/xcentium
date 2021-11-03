@@ -1,0 +1,11 @@
+@import '../../../styles/variables';
+
+.movie-detail {
+    max-width: $content-max-width;
+}
+
+@media only screen and (max-width: map-get($screen-maps, 'xmd')) {
+    .movie-detail {
+        flex-direction: column;
+    }
+}

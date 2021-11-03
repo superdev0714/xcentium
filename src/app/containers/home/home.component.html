@@ -1,0 +1,5 @@
+<div class="container d-flex justify-content-center flex-direction-column">
+    <div class="movie-list">
+        <app-movie-card *ngFor="let movie of (movieList$ | async)" [movie]="movie"></app-movie-card>
+    </div>
+</div>

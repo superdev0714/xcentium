@@ -1,0 +1,5 @@
+<div class="trimmed-movie-card p-1 cursor-pointer">
+    <a aria-label="Title" [routerLink]="['../movie', movie.imdbID]" role="link">
+        <img [src]="movie.Poster" [alt]="movie.Title" [title]="movie.Title"/>
+    </a>
+</div>

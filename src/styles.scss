@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import './styles/variables';
+@import './styles/type';
+
+html {
+    background-color: $black-color;
+    font-family: 'Calibri';
+    color: $fade-color;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: $main-padding-v $main-padding-h 10px $main-padding-h;
+  }
+  
+.navbar-brand {
+    display: inline-block;
+    font-size: 38px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.container {
+    min-height: calc(100vh - 202px);
+    margin: auto;
+    padding-top: 20px;
+}

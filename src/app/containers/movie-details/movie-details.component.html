@@ -1,0 +1,22 @@
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="movie-detail d-flex" *ngIf="(selectedMovie$ | async)?.Title">
+        <img [src]="(selectedMovie$ | async)?.Poster" [alt]="(selectedMovie$ | async)?.Title" [title]="(selectedMovie$ | async)?.Title"/>
+        <div class="ml-4">
+            <h1 class="card-title text-light" aria-label="Date" role="heading">
+                {{ (selectedMovie$ | async)?.Title }}
+            </h1>
+            <p aria-label="Date" role="heading">
+                Date: {{ (selectedMovie$ | async)?.Year }}
+            </p>
+            <p aria-label="Actors" role="heading">
+                Actors: {{ (selectedMovie$ | async)?.Actors }}
+            </p>
+            <p aria-label="Plot" role="heading">
+                Plot: {{ (selectedMovie$ | async)?.Plot }}
+            </p>
+            <p aria-label="Votes" role="heading">
+                Votes: {{ (selectedMovie$ | async)?.imdbVotes }}
+            </p>
+        </div>
+    </div>
+</div>

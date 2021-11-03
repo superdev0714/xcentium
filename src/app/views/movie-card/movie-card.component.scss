@@ -1,0 +1,9 @@
+.trimmed-movie-card {
+    height: 100%;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    img {
+        max-width: 230px;
+    }
+}
